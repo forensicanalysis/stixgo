@@ -937,7 +937,7 @@ var FS = map[string][]byte{
       "description": "A list of selectors for content contained within the STIX object in which this property appears.",
       "items": {
         "type": "string",
-        "pattern": "^[a-z][a-z0-9_-]{3,249}(\\.(\\[\\d+\\]|[a-z0-9_-]{1,250}))*$"
+        "pattern": "^([a-z0-9_-]{3,249}(\\.(\\[\\d+\\]|[a-z0-9_-]{1,250}))*|id)$"
       },
       "minItems": 1
     },
