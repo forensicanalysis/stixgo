@@ -800,7 +800,7 @@ var FS = map[string][]byte{
             "allOf": [{ "$ref": "../common/properties.json" }]
           }
         },
-        "addtionalProperties": false
+        "additionalProperties": false
     }
   },
   "allOf": [{ "$ref": "../common/properties.json" }],
@@ -842,7 +842,7 @@ var FS = map[string][]byte{
         ]
       }
     },
-    "addtionalProperties": false
+    "additionalProperties": false
 }
 `),
 	"/common/external-reference.json": []byte(`{
